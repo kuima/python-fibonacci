@@ -7,38 +7,22 @@ This is a Python project template using Fibonacci number as example, well organi
 Structure
 ---------
 
-::
-
-    ROOT
-    │
-    ├── .gitignore ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Git configuration to ignore files
-    │
-    ├── COMMANDS ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Instruction of common commands
-    │
-    ├── LICENSE ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ License declaration
-    │
-    ├── MANIFEST.in ┄┄┄┄┄┄┄┄┄┄┄┄┄ List of additional files to attach
-    │
-    ├── README.rst ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Project instruction
-    │
-    ├── setup.cfg ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Configurations
-    │
-    ├── setup.py ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Build script for setuptools
-    │
-    ├── requirements.txt ┄┄┄┄┄┄┄┄ Dependencies
-    │
-    ├── docs ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Documentation directory
-    │   └── index.rst
-    │
-    ├── fibonacci ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Main package directory
-    │   ├── __init__.py
-    │   │
-    │   └── bin ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Command line tools directory
-    │       └── __init__.py
-    │
-    └── tests ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄ Unit tests directory
-        ├── test_cli.py
-        └── test_fibonacci.py
+================  =================================
+File              Description
+================  =================================
+.gitignore        Git configuration to ignore files
+COMMANDS          Instruction of common commands
+LICENSE           License declaration
+MANIFEST.in       List of additional files to attach
+README.rst        Project instruction
+setup.cfg         Configurations
+setup.py          Build script for setuptools
+requirements.txt  Dependencies
+docs              Documentation directory
+fibonacci         Main package directory
+fibonacci/bin     Command line tools directory
+tests             Unit tests directory
+================  =================================
 
 Usage
 -----
