@@ -27,6 +27,12 @@ tests             Unit tests directory
 Usage
 -----
 
+Install:
+
+.. code-block:: shell
+
+    pip install pfibonacci
+
 From code:
 
 .. code-block:: python
